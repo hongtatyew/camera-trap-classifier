@@ -12,8 +12,8 @@ setup(
         'pyyaml'
     ],
     extras_require={
-        'tf': ['tensorflow==1.12'],
-        'tf-gpu': ['tensorflow-gpu==1.12']
+        'tf': ['tensorflow==1.15'],
+        'tf-gpu': ['tensorflow-gpu==1.15']
     },
     entry_points={
         'console_scripts': [
