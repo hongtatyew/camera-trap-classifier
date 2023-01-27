@@ -9,12 +9,9 @@ setup(
     package_data={'': ['*.yaml']},
     include_package_data=True,
     install_requires=[
-        'pyyaml'
+        'pyyaml',
+        'tensorflow==1.15'
     ],
-    extras_require={
-        'tf': ['tensorflow==1.15'],
-        'tf-gpu': ['tensorflow-gpu==1.15']
-    },
     entry_points={
         'console_scripts': [
             'ctc.create_dataset_inventory = camera_trap_classifier.create_dataset_inventory:main',
