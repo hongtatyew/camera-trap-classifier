@@ -10,7 +10,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'pyyaml',
-        'tensorflow==1.15'
+        'tensorflow==1.13.2'
     ],
     entry_points={
         'console_scripts': [
